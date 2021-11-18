@@ -7,11 +7,25 @@
     <title>CRUD Website</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Selamat datang di CRUD Website</h1>
+    <h1 style="font-family:verdana;text-align: center;">WELCOME TO CRUD WEBSITE</h1>
     <nav style="text-align: center;">
-        <a href="/crud_web/warga.php">| Data Warga | </a>        
-        <a href="/crud_web/pengurus.php"> Data Pengurus | </a>
-        <a href="/crud_web/kartu_keluarga.php"> Data Kartu Keluarga | </a>
+ 
+    <style scoped="">
+        button {
+            font-size: 100%;
+        }
+        </style>
+    <button class="pure-button">
+        <a href="/crud_web/warga.php" >Data Warga</a> 
+    </button>
+    <button class="pure-button">
+    <a href="/crud_web/pengurus.php"> Data Pengurus  </a>
+    </button>
+    <button class="-button">
+     <a href="/crud_web/kartu_keluarga.php"> Data Kartu Keluarga  </a>
+    </button>         
+      
+        
     </nav>
 </body>
 </html>
